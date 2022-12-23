@@ -15,7 +15,7 @@ function LocationInfo({ formData, setFormData, isTogle, setIsTogle }) {
         }
 
         formData.email = localStorage.getItem('email')
-        await axios.post('http://localhost:5000/add', formData, {
+        await axios.post('https://real-estate-by-rohit-team14.onrender.com/add', formData, {
             headers: {
                 authorization: localStorage.getItem('token')
             }

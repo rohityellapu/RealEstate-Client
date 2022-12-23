@@ -4,7 +4,7 @@ import axios from "axios";
 import { Link, useNavigate } from 'react-router-dom';
 import { BsEyeFill } from 'react-icons/bs';
 import logo from "../images/Logo.png";
-const apiUrl = 'http://localhost:5000/register'
+const apiUrl = 'https://real-estate-by-rohit-team14.onrender.com/register'
 const Signup = () => {
     const navigate = useNavigate()
     const [err, setErr] = useState('');

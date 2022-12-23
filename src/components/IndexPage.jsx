@@ -10,7 +10,7 @@ function IndexPage() {
   let [data, setDat] = useState([])
   let [ppdId, setPPId] = useState('');
   let token = localStorage.getItem("token");
-  const apiUrl = 'http://localhost:5000'
+  const apiUrl = 'https://real-estate-by-rohit-team14.onrender.com';
   useEffect(() => {
     const getData = async () => {
       await axios({
