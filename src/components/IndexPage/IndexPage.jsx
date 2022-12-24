@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import Header from './Header'
+import Header from '../Header'
 import Search from './Search'
 import './Index.css'
-import Menubar from './Dashboard/Menubar'
+import Menubar from '../Dashboard/Menubar'
 import Properties from './Properties'
 import { Navigate } from "react-router-dom";
 import axios from 'axios'
@@ -24,7 +24,7 @@ function IndexPage() {
     }
     getData()
   }, [])
-  
+
   return (
 
     <>{ token ? <div className="container flex flex-row">
